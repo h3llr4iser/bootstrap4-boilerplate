@@ -1,0 +1,48 @@
+# Git Ignore
+
+# Validation
+validation-report.json
+validation-status.json
+
+# Grunt Build Files
+css/style.css
+css/style.min.css
+js/script.js
+js/script.min.js
+
+# Apache
+.htaccess
+.htpasswd
+
+# Node Modules
+node_modules
+
+# Sass Cache
+.sass-cache
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+sftp-config.json
+sftp-config-*.json
+
+# Netbeans
+nbproject
+
+# Mac OS
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+*~
+._*
+.Spotlight-V100
+.Trashes
+__MACOSX
+Thumbs.db
+ehthumbs.db
+
+# Linux OS
+.swp.*
+*.swp.*
+*.swp

@@ -1,0 +1,67 @@
+// ==========================================================================
+// Responsive Templates
+// ==========================================================================
+
+//
+// These responsive declarations should be used to implement any responsive styling, since they coincide with actual devices.
+//
+
+// ==========================================
+// Larger Than... (Lowest Pixel Widths First)
+
+// 320px and above
+@include bp($iphoneportrait) {}
+
+// 375px and above
+@include bp($iphone6portrait) {}
+
+// 480px and above
+@include bp($iphonelandscape) {}
+
+// 568px and above
+@include bp($iphone5landscape) {}
+
+// 576px and above
+@include bp($small) {}
+
+// 768px and above
+@include bp($medium) {}
+
+// 992px and above
+@include bp($large) {}
+
+// 1200px and above
+@include bp($extralarge) {}
+
+// 1366px and above
+@include bp($macbookair11inch) {}
+
+// ============================================
+// Smaller Than... (Highest Pixel Widths First)
+
+// 1365px and below
+@include bp($max: #{$macbookair11inch - 1}) {}
+
+// 1199px and below
+@include bp($max: #{$extralarge - 1}) {}
+
+// 991px and below
+@include bp($max: #{$large - 1}) {}
+
+// 767px and below
+@include bp($max: #{$medium - 1}) {}
+
+// 575px and below
+@include bp($max: #{$small - 1}) {}
+
+// 567px and below
+@include bp($max: #{$iphone5landscape - 1}) {}
+
+// 479px and below
+@include bp($max: #{$iphonelandscape - 1}) {}
+
+// 374px and below
+@include bp($max: #{$iphone6portrait - 1}) {}
+
+// 319px and below
+@include bp($max: #{$iphoneportrait - 1}) {}
